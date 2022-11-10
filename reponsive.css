@@ -1,0 +1,126 @@
+@media screen and (max-width:600px) {
+    /* ----NAVBAR---- */
+    .navbar .navbar-right .navbar_right-list li:nth-child(1) {
+        display: none;
+    } 
+    .navbar .navbar-right .navbar_right-list li:nth-child(2) {
+        display: none;
+    } 
+    .navbar .navbar-right .navbar_right-list li:nth-child(3) {
+        display: none;
+    } 
+    .navbar .navbar-right .navbar_right-list li:nth-child(4) {
+        display: none;
+    }
+      .navbar .navbar-right .navbar_right-list li:nth-child(5){
+        display: block;
+    }
+
+
+    /* ----HERO SECTION---- */
+
+
+    .h-section {
+        flex-direction: column;
+    
+    }
+    .h-section .h-section-left h2 {
+        text-align: center;
+    }
+    .h-section .h-section-left p {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .h-section .h-section-left button {
+        margin: 20px auto;
+        width: 100%; 
+        display: block;
+    
+    }
+/* CPMPANIES SECTION */
+    .c-section img {
+       width: 100%;
+       height: 35px;
+     
+    }
+    .c-section .c-section_text {
+      margin-top: 120px;
+    }
+
+  /* BRANDING SECTION */
+
+  .b-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .b-section .b_section-right h2 {
+    font-size: 32px;
+    text-align: center;
+    /* width: 380px; */
+    /* height: 76px; */
+  }
+  .b-section .b_section-right p {
+    font-size: 12px;
+    text-align: center;
+    /* width: 380px; */
+    /* height: 53px; */
+  }
+ .b-section .b_section-right i {
+    text-align: center;
+}
+.b-section .b_section-right i.desktop {
+  display: none;
+}
+.b-section .b_section-right i.mobile {
+  display: block;
+}
+.b-section .b_section-left img {
+   width: 375px;
+   height: auto;
+   margin: 0;
+}
+
+/* CUSTOME SECTION */
+  
+.cu-section {
+  display: flex;
+  flex-direction: column;
+}
+.cu-section .cu-section_left h2 {
+  text-align: center;
+  font-size: 32px
+
+}
+.cu-section .cu-section_left p {
+  text-align: center;
+  font-size: 14px;
+}
+.cu-section .cu-section_left i {
+  text-align: center;
+}
+.cu-section .cu-section_left i.two {
+  display: block;
+  margin-bottom: 24.46px;
+}
+.cu-section .cu-section_left i.one {
+  display: none;
+
+}
+
+/* TESTIMONIAL SECTION */
+
+.t-section .t-section_bottom {
+  display: flex;
+  flex-direction: column;
+}
+.t-section .t-section_top p {
+  font-size: 12px;
+}
+.t-section .t-section_top h2 {
+  font-size: 32px;
+
+}
+
+.t-section .t-section_bottom .two {
+  margin: 72px 0 ;
+}

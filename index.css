@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap') ;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+#container {
+    width: 80%;
+    height: auto ;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+/* -----NAVBAR----- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+.navbar .navbar-left .navbar_left-logo {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+   
+}
+.navbar .navbar-right .navbar_right-list {
+    display: flex;
+    /* justify-content: space-between; */
+}
+.navbar .navbar-right .navbar_right-list li {
+    list-style: none;
+    margin-left: 50px;
+}
+.navbar .navbar-right .navbar_right-list li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #272D38 ;
+    
+}
+.navbar .navbar-right .navbar_right-list .icon-menu {
+    display: none;
+}
+/* ----HERO-SECTION---- */
+.h-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.h-section .h-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.h-section .h-section-left h2 {
+    font-weight:700;
+    font-size: 64px;
+    max-width: 540px;
+    height: auto ;
+    line-height: 100%;
+     /* để căn giữ , tuy ko thay đổi nhưng thêm cho chắc */
+     text-transform: capitalize;
+
+}
+.h-section .h-section-left p {
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 525px;
+    height: auto;
+    color: #272D38;
+    text-transform: capitalize;
+
+}
+.h-section .h-section-left button {
+    max-width: 167px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    background-color: #8eadd5;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+.h-section .h-section-right img {
+    width: 100%;
+}
+
+
+/* COMPANIES-SECTION */
+ 
+.c-section .c-section_text {
+    font-size: 16px;
+    font-weight: 300;
+    color: #667085;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 157px;
+}
+
+.c-section img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+
+/* BRANDING SECTION */
+.b-section {
+    display: flex;
+    margin-top: 136px;
+}
+.b-section .b_section-left {
+    margin-right: 179.31px;
+}
+.b-section .b_section-right {
+  margin: auto 0;
+}
+.b-section .b_section-right h2 {
+    font-size: 48px;
+    text-transform: capitalize;
+    margin-bottom: 25.59px;
+    max-width: 435.69px;
+    height: 102.35px;
+    font-weight: 700;
+    
+}
+.b-section .b_section-right p {
+    font-size: 16px;
+    max-width: 392.22px;
+    height: 83.16px;
+    text-transform: capitalize;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 43.91px;
+    
+}
+.b-section .b_section-right i.mobile {
+    display: none;
+}
+.b-section .b_section-left img {
+  width: 100%;
+    
+
+}
+
+/* CUSTOME SECTION */
+
+.cu-section {
+    display: flex;
+    margin-top: 233px;
+    justify-content: space-around;
+
+}
+.cu-section .cu-section_left {
+    margin: auto 0;
+}
+
+
+.cu-section .cu-section_left h2 {
+    font-size: 48px;
+    font-weight: 900;
+    max-width: 435.69px;
+    text-transform: capitalize;
+}
+.cu-section .cu-section_left p {
+    font-size: 16.6px;
+    font-weight: 400;
+    max-width: 392.22px;
+    text-transform: capitalize;
+    margin-top: 25.59px;
+    margin-bottom: 45.91px;
+}
+.cu-section .cu-section_right img {
+    width: 100%;
+}
+.cu-section .cu-section_left i.two {
+    display: none;
+}
+
+/* testimonial section */
+
+.t-section {
+    display: flex;
+    flex-direction: column;
+
+}
+.t-section .t-section_top p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 136px;
+    text-transform: capitalize;
+}
+.t-section .t-section_top h2 {
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: capitalize;
+    margin-top: 16px;
+    max-width: 435.69px;
+    margin-bottom: 38.65px;
+    text-align: center;
+    line-height: 100%;
+}
+.t-section .t-section_bottom {
+    display: flex;
+
+    max-width: 345px;
+    height: 334px;
+}
+.t-section .t-section_bottom .two {
+    margin: 0 35px;
+}
