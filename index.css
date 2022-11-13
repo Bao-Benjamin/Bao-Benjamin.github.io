@@ -106,6 +106,8 @@
 
 
 /* BRANDING SECTION */
+
+
 .b-section {
     display: flex;
     margin-top: 136px;
@@ -121,14 +123,14 @@
     text-transform: capitalize;
     margin-bottom: 25.59px;
     max-width: 435.69px;
-    height: 102.35px;
+    height: auto;
     font-weight: 700;
     
 }
 .b-section .b_section-right p {
     font-size: 16px;
     max-width: 392.22px;
-    height: 83.16px;
+    height: auto;
     text-transform: capitalize;
     line-height: 28px;
     font-weight: 400;
@@ -139,9 +141,7 @@
     display: none;
 }
 .b-section .b_section-left img {
-  width: 100%;
-    
-
+    width: 100%;
 }
 
 /* CUSTOME SECTION */
@@ -180,34 +180,99 @@
 
 /* testimonial section */
 
+
 .t-section {
+    margin-top: 140px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
 }
-.t-section .t-section_top p {
+.t-section .t-section_top .t-section_text {
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
-    margin-top: 136px;
-    text-transform: capitalize;
+    max-width: 122px;
+    height: auto;
+    
 }
-.t-section .t-section_top h2 {
-    font-weight: 700;
-    font-size: 48px;
-    text-transform: capitalize;
-    margin-top: 16px;
-    max-width: 435.69px;
-    margin-bottom: 38.65px;
+.t-section .t-section_top .t-section_heading{
     text-align: center;
-    line-height: 100%;
+    font-size: 48px;
+    font-weight: 700;
+    max-width: 435px;
+    height: auto;
+    margin-top: 16px;
+    margin-bottom: 39px;
 }
 .t-section .t-section_bottom {
-    display: flex;
-
-    max-width: 345px;
-    height: 334px;
+    display: flex ;
+    justify-content: space-evenly;
 }
-.t-section .t-section_bottom .two {
-    margin: 0 35px;
+.t-section .t-section_bottom .t-section_bottom_item {
+    width: 30%;
+    height: 334px;
+    border-radius: 10px;
+    background-color: #ccc;
+    padding: 30px 20px;
+}
+.t-section .t-section_bottom .t-section_bottom_item img { 
+    display: block;
+    margin: 0 auto 10px;
+
+}
+.t-section .t-section_bottom .t-section_bottom_item h4{
+    margin-bottom: 30px;
+}
+.t-section .t-section_bottom .t-section_bottom_item p,
+.t-section .t-section_bottom .t-section_bottom_item h4  {
+    text-align: center;
+
+}
+
+
+/* CONTACT SECTION  */
+
+
+.co-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 168px;
+}
+.co-section .co-section_right{
+    margin-left: 90px;
+}
+.co-section .co-section_right h2 {
+    font-size: 48px;
+    font-weight: 700;
+    max-width: 361px;
+    height: auto;
+    margin-top: 100.1px;
+}
+.co-section .co-section_right p {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 360px;
+    height: auto;
+    margin-top: 16.02px;
+    margin-bottom: 32.03px;
+}
+
+
+.co-section .co-section_right button {
+    /* max-width: 167px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    background-color: #8eadd5;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white; */
+    max-width: 167px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    background-color: #8eadd5;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
 }
