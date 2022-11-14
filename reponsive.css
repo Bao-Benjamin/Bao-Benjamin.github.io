@@ -26,6 +26,8 @@
     }
     .h-section .h-section-left h2 {
         text-align: center;
+        font-size: 40px;
+        font-weight: 700;
     }
     .h-section .h-section-left p {
         margin-top: 20px;
@@ -115,7 +117,7 @@
   flex-direction: column;
 }
 .t-section .t-section_top .t-section_text {
-  font-size: 12px;
+  font-size: 12px ;
 }
 .t-section .t-section_top .t-section_heading {
   font-size: 26px;
@@ -124,9 +126,6 @@
   width: 100%;
 }
 
-.t-section .t-section_bottom .two {
-  margin: 72px 0 ;
-}
 
 /* CONTACT SECTION */
 /* .co-section .co-section_left {
@@ -141,6 +140,10 @@
 .co-section .co-section_left img {
   display: none;
 }
+.co-section .co-section_right {
+  width: 100%;
+  margin-left: 0;
+}
 .co-section .co-section_right h2 {
   font-size: 32px;
   font-weight: 700;
@@ -154,7 +157,7 @@
   margin-bottom: 58.01px;
 }
 .co-section .co-section_right button {
-  margin: 20px auto;
+        margin: 20px auto;
         width: 100%; 
         display: block;
 
@@ -165,5 +168,42 @@
   /* transform: translateX(50%); */
 
 }
+      /* FOOTER */
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .footer-list .footer-item p {
+  text-align: center;
+}
+.footer .footer-list .footer-item h3 {
+  text-align: center;
+}
+.footer .footer-list .footer-item .footer-item-list-one ,
+.footer .footer-list .footer-item .footer-item-list-two ,
+.footer .footer-list .footer-item .footer-item-list-three   {
+    list-style-type: none;
+} 
+.footer .footer-list .footer-item .footer-item-list-one li {
+    margin: 24px 0;
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: center;
+}
+.footer .footer-list .footer-item .footer-item-list-two li {
+    margin: 24px 0;
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: center;
+}
+.footer .footer-list .footer-item .footer-item-list-three li {
+    margin: 24px 0;
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: center;
 
-/*   */
